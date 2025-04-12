@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+      
+<nav class="navbar">
+    <div class="logo">
+        <a href="#">Binayee</a>
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+<section class="hero">
+    <div class="hero-content">
+      <img src="profile.jpg" alt="profile" class="profile-img">
+      <h1>Binayee Dizayee</h1>
+      <p>I’m a third year Software Engineering student with a passion for technology and design. I enjoy learning new skills and working on projects that combine creativity and technical knowledge. I’m currently studying at the University of Kurdistan Hewler, preparing for a future in the tech industry</p>
+    </div>
+  </section>
+  
+  <section id="home">
+    <h2>Welcome to My Portfolio</h2>
+    <p>This is the home section where I introduce myself briefly.</p>
+
+  </section>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a software engineering student who enjoys drawing and reading. I’m passionate about technology and always eager to learn more.</p>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS</li>
+      <li> Java</li>
+      <li>Git & GitHub</li>
+      <li>C++</li>
+    </ul>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: binayeedizayee@ukh.edu.krd</p>
+    <p>GitHub: <a href="https://github.com/binayee04" target="_blank">binayee04</a></p>
+  </section>
+  
+
+<script>
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+</script>
+
+
+
+<section class="projects" id="projects">
+    <h2>Projects</h2>
+    <ul class="project-list">
+        <li><strong>Project 1:</strong> Community forum and discussion boards for Software Engineering and Development</li>
+        <li><strong>Project 2:</strong> A prototype Campus Event Management System for Algorithm Design and Analysis</li>
+        <li><strong>Project 3:</strong> Preserving Privacy in the Digital World for Public Speaking</li>
+        <li><strong>Project 4:</strong> Ticket management system for data structure and algorithms</li>
+    </ul>
+</section>
