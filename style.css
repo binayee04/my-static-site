@@ -275,10 +275,16 @@ section {
     font-size: 1rem;
     line-height: 1.6;
 }
-.nav-links {
+.menu {
   display: flex;
-  justify-content: space-around;
-  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
 }
+
+.menu-toggle {
+  display: none;
+}
+
 
 
